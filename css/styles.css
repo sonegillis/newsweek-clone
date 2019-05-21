@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+}
+.desktop-nav-1{
+  height: 90px;
+  background-color: #f72210;
+  width: 100%;
+}
+
+.desktop-nav-2{
+  height: 60px;
+  width: 100%;
+}
+.nav-item input{
+  border: 0;
+}
+.nav-link:hover{
+  color: #f72210
+}
+.container-1 {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.text-white{
+  color: white;
+}
+.no-mg{
+  margin: 0;
+}
+.no-pd{
+  padding: 0;
+}
+.btn{
+  border: 0;
+  border-radius: 0;
+}
+.btn-primary{
+  color: #f72210;
+  background-color: white;
+}
+.btn-primary:hover{
+  color: #f72210;
+  background-color: white;
+}
+.bg-blue{
+  background-color: blue;
+}
+.bg-green{
+  background-color: green;
+}
+.bg-white{
+  background-color: blue;
+}
+.pt-4-1{
+  padding-top: 30px;
+}
+.pt-4-2{
+  padding-top: 36px;
+}
+.pt-4-3{
+  padding-top: 42px;
+}
+.nav-link{
+  color: black;
+}
