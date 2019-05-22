@@ -1,5 +1,42 @@
+h1, h2, h3, h4, h6{
+  margin: 0;
+}
 body{
   margin: 0;
+}
+main{
+  margin-top: 15px;
+}
+figure{
+  margin: 0;
+}
+.card{
+  border: 0;
+}
+.card-body{
+  padding: 0;
+}
+.card-footer{
+  padding: 10px 0;
+  background-color: inherit;
+}
+.card figure{
+  position: relative;
+}
+.card figure figcaption{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 6px;
+}
+.card figure figcaption.figcaption-primary{
+  color: #f72210;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.card figure figcaption.figcaption-success{
+ color: #fff;
+ background-color: #f72210;
 }
 .desktop-nav-1{
   height: 90px;
@@ -15,11 +52,14 @@ body{
   border: 0;
 }
 .nav-link:hover{
-  color: #f72210
+  color: #f72210;
 }
 .container-1 {
-  width: 98%;
+  width: 97%;
   margin: 0 auto;
+}
+.top-story{
+  /* height: 700px; */
 }
 
 .text-white{
@@ -39,9 +79,22 @@ body{
   color: #f72210;
   background-color: white;
 }
+.btn-info{
+  color: #fff;
+  background-color: #666; /* rgb(102,102,102) */
+}
+.btn-info:hover{
+  color: #fff;
+  background-color: rgba(102, 102, 102, 0.7);
+}
 .btn-primary:hover{
   color: #f72210;
   background-color: white;
+}
+.text-sweet {
+  color: white;
+  background-color: #f72210;
+  padding: 4px;
 }
 .bg-blue{
   background-color: blue;
@@ -63,4 +116,45 @@ body{
 }
 .nav-link{
   color: black;
+}
+article{
+  border-top: 1px solid #000;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+  margin-top: 10px;
+  width: 100%;
+}
+article .media{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2% 10px;
+}
+
+article .media img{
+  max-height: 100px;
+  max-width: 120px;
+  grid-area: image;
+}
+article .media .media-body{
+  grid-area: body;
+}
+article .media .media-lead{
+  grid-area: lead;
+}
+.story article .media{
+  grid-template-areas: "image body"
+                       "lead lead";
+}
+.opinion article .media{
+  grid-template-areas: "image body";
+}
+
+.h-60 {
+  height: 60%;
+}
+.h-40{
+  height: 40%;
+}
+.height-500{
+  height: 500px;
 }
