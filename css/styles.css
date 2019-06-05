@@ -44,6 +44,10 @@ figure img{
 img{
   cursor: pointer;
 }
+article.clearfix div.float-left img{
+  height: 100px;
+  width: 150px;
+}
 .card-footer{
   padding: 10px 0;
   background-color: inherit;
@@ -349,7 +353,10 @@ a{
   *{
     font-size: 14px;
   }
-
+  .c-sticky-top{
+    position: sticky;
+    top: 40px;
+  }
   .d-flex div:nth-of-type(1){
     flex: 1 1 30%;
   }
